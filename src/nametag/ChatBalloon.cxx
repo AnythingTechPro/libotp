@@ -40,7 +40,7 @@ NodePath ChatBalloon::generate(const std::wstring& text, PT(TextFont) font, LVec
     
     LVecBase4f tcolor;
     if (text_color == nullptr)
-        tcolor = LVecBase4f(0, 0, 0, 1);
+        tcolor = LVecBase4f(1, 1, 1, 1);
         
     else
         tcolor = *text_color;
